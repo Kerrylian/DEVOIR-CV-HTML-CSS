@@ -7,7 +7,6 @@ html {
 body {
     margin: auto;
     max-width: 1160px;
-    border-right: 5px solid black;
 }
 
 header {
@@ -44,6 +43,7 @@ div a {
 
 aside {
     width: 15%;
+    height: auto;
     padding-block-start: 0px;
     margin-block-start: 0px;
     float: left;
@@ -57,7 +57,7 @@ aside {
 
 .About {
     width: 300px;
-    height: 1400px;
+    height: 950px;
     background-color: #782221;
     display: flex;
     color: white;
@@ -108,7 +108,9 @@ h3 {
     border-color: #dbc2a4;
     background-color: #dbc2a4;
     text-align: left;
-
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-left: auto;
 }
 
 h4 {
@@ -127,9 +129,21 @@ footer {
     width: auto;
 }
 
+.img3 {
+    height: 40px;
+    width: auto;
+}
+
+.img4 {
+    height: 40px;
+    width: auto;
+}
+
 .Pex {
     text-align: start;
-    margin-bottom: 200px;
+    border-right: 3px solid black;
+    margin-bottom: 102px;
+    margin-left: 5px;
 }
 
 dd {
