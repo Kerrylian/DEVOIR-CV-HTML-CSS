@@ -1,151 +1,154 @@
-html {
-    font-family: sans-serif;
-    display: block;
-    margin: auto;
+@font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 100;
+    src: url(/assets/font/static/Raleway-Black.ttf) src url(/assets/font/static/Raleway-Black.woff);
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 body {
-    margin: auto;
-    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 1160px;
+    max-width: 100%;
 }
 
 header {
-    height: auto;
-    background-color: #772221;
-    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: auto;
     align-items: center;
-
+    background-color: #772221;
+    color: white;
+    font-family: 'Lato';
+    padding: 20px;
 }
 
 img {
-    margin: 20px;
-    width: auto;
-    height: auto;
+    margin: auto;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 50px black;
 }
 
+
 .container {
     display: flex;
-    height: auto;
+    flex-direction: row;
     background-color: #2c1d27;
-    justify-content: space-between;
-    margin: 0%;
+    justify-content: space-around;
+    text-align: center;
 }
 
 div a {
     color: white;
 }
 
-aside {
-    width: 15%;
-    height: auto;
-    padding-block-start: 0px;
-    margin-block-start: 0px;
-    float: left;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-    margin-top: 0px;
-    margin-right: 12%;
-
-}
-
 .About {
-    width: 300px;
-    height: 950px;
-    background-color: #782221;
     display: flex;
-    color: white;
-
-}
-
-.AboutMe {
-    width: 280px;
-    height: 750px;
-    background-color: #782221;
-    flex-direction: row;
-    justify-content: start;
-    max-height: fit-content;
-
-}
-
-.Myjourney {
-
-    width: auto;
-    height: auto;
-    display: flex;
-    border-style: solid;
-    text-align: center;
-
-}
-
-.pro-exp {
-    width: auto;
-    height: auto;
-    flex-direction: row;
-    justify-content: center;
-
-}
-
-h2 {
-    display: block;
-    color: black;
-    border-style: solid;
-    border-color: #dbc2a4;
-    background-color: #dbc2a4;
-
-}
-
-h3 {
-    display: flex;
-    color: black;
-    border-style: solid;
-    border-color: #dbc2a4;
-    background-color: #dbc2a4;
-    text-align: left;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-left: auto;
-}
-
-h4 {
-    font-weight: bold;
-}
-
-footer {
-    display: block;
-    text-align: center;
     background-color: #782221;
     color: white;
+    font-family: 'Lato';
+    margin-right: 850px;
+    padding-bottom: 400px;
 }
 
-.img2 {
-    height: 40px;
-    width: auto;
-}
+.oui {
+    display: flex;
+    border-right: solid black;
+    margin-top: -950px;
+    margin-left: 350px;
+    margin-bottom: 10px;
 
-.img3 {
-    height: 40px;
-    width: auto;
-}
-
-.img4 {
-    height: 40px;
-    width: auto;
-}
-
-.Pex {
-    text-align: start;
-    border-right: 3px solid black;
-    margin-bottom: 102px;
-    margin-left: 5px;
 }
 
 dd {
     margin-left: 30px;
+    font-family: 'Raleway';
+}
+
+h2 {
+    display: flex;
+    color: black;
+    border-style: solid;
+    border-color: #dbc2a4;
+    background-color: #dbc2a4;
+    font-family: 'Lato' sans-serif;
+}
+
+h3 {
+    display: flex;
+    font-family: 'Lato' sans-serif;
+    color: black;
+    border-style: solid;
+    border-color: #dbc2a4;
+    background-color: #dbc2a4;
+    border-left: 10px solid #772221;
+    padding-right: 500px;
+    padding-left: 15px;
+}
+
+h4 {
+    font-weight: bold;
+    font-family: 'Lato';
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+
+}
+
+.img2 {
+    width: 40px;
+}
+
+.img2:hover {
+    opacity: 0.5;
+
+}
+
+.img3 {
+    width: 40px;
+}
+
+.img3:hover {
+    opacity: 0.5;
+}
+
+.img4 {
+    width: 40px;
+}
+
+.img4:hover {
+    opacity: 0.5;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    color: white;
+    padding: 10px;
+    align-items: center;
 }
