@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Raleway';
     font-style: italic;
-    font-weight: 100;
-    src: url(/assets/font/static/Raleway-Black.ttf) src url(/assets/font/static/Raleway-Black.woff);
+    font-weight: 100%;
+    src: url(/assets/font/static/Raleway-Black.woff);
 }
 
 .lato-regular {
@@ -41,6 +41,15 @@ header {
     color: white;
     font-family: 'Lato';
     padding: 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 img {
@@ -50,6 +59,9 @@ img {
     box-shadow: 0 0 50px black;
 }
 
+img:hover {
+    cursor: zoom-in;
+}
 
 .container {
     display: flex;
